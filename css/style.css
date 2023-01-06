@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+   width: 350px;
+   margin: 50px auto;
+   border: 2px solid rgb(93, 93, 93);
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+}
+
+th, td {
+    border: 2px solid rgb(93, 93, 93);
+}
+
+.name input{
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
